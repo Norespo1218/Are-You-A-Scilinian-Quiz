@@ -166,8 +166,10 @@ var quiz = {
     if (correct) {
       quiz.score++;
       option.classList.add("correct");
+		alert("Your right")
     } else {
       option.classList.add("wrong");
+		alert("Your wrong")
     }
 
    
