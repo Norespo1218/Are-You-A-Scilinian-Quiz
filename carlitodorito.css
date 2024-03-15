@@ -89,13 +89,21 @@ background: url("img2.jpg");
   text-align: center;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .widget-wrap {
     width: 600px;
     padding: 30px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.4);
+	 animation: fadeIn 1s ease-in-out;
 }
-
 
 #code-boxx {
   font-weight: 600;
